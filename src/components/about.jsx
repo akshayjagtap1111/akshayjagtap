@@ -1,44 +1,46 @@
 import React from "react";
 import myImage from "../img/myImage.png";
+import aaa from "../img/aaa.jpg";
+
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80",img:"https://cdn.worldvectorlogo.com/logos/html-1.svg" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75",img:"https://static.cdnlogo.com/logos/c/18/css.svg" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
           value: "90",
+          img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSkrYIN-38LoMu5f3UTJ0HFFGMu0zZ68jX-r9ZoSJ0h0ip3_hdmVONCe9sUHdwbCoP4c&usqp=CAU"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { id: "PHP_skill", content: "NodeJs", porcentage: "70%", value: "70",img:"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" },
+        {
+          id: "Python_skill",
+          content: "ExpressJs",
+          porcentage: "75%",
+          value: "75",
+          img:"https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png"
+        },
+        
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           porcentage: "80%",
           value: "80",
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75",
+          img:"https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png"
         },
         {
           id: "VanillaJS_skill",
-          content: "VanillaJS",
+          content: "MongoDB",
           porcentage: "85%",
           value: "85",
+          img:"https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png"
         },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80",
-        },
+       
       ],
       about_me: [
         {
@@ -90,10 +92,12 @@ class About extends React.Component {
                       {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
+                            <img src={skill.img} width={30} id="img"></img>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
                               {skill.porcentage}
                             </span>
+                            
                             <div className="progress">
                               <div
                                 className="progress-bar"

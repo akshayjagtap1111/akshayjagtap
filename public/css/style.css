@@ -679,6 +679,7 @@ ABOUT
 }
 
 .skill-mf span {
+  /* color: #d3003f; */
   color: #4e4e4e;
 }
 
@@ -915,6 +916,9 @@ BUTTON
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
+}
+#img{
+  width: 20px;
 }
 
 @media (min-width: 577px) {

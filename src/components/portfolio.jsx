@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Portfolio</h3>
+                <h3 className="title-a">Projects</h3>
                 <p className="subtitle-a">
                   Incididunt nostrud id aute culpa excepteur pariatur consequat
                   elit culpa nulla enim anim incididunt.
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Clone of Ssence.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap ReactJS
@@ -96,7 +96,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Clone of NineWest.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap Webpack SmoothScrolling
@@ -158,7 +158,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Clone of Paperfry.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap Webpack ReactJS
@@ -220,7 +220,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Clone of Purplle.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Bootstrap ReactJS GoogleAPI
@@ -340,7 +340,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Recipe App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap MERN
