@@ -8,6 +8,47 @@ import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
+import ss_home from "../img/ss_home.png"
+import ss_grid from "../img/ss_grid.png"
+import ss_prod1 from "../img/ss_prod1.png"
+import ss_login from "../img/ss_login.png"
+import ss_cart from "../img/ss_cart.png"
+import ss_checkout from "../img/ss_checkout.png"
+
+
+import nw_home from "../img/nw_home.png"
+import nw_home2 from "../img/nw_grid.png"
+import nw_login from "../img/nw_login.png"
+import nw_prod from "../img/nw_product.png"
+import nw_signin from "../img/nw_signin.png"
+
+import pf_home from "../img/pf_home.png"
+import pf_home2 from "../img/pf_home2.png"
+import pf_home3 from "../img/pf_home3.png"
+import pf_cart from "../img/pf_cart.png"
+import pf_grid from "../img/pf_grid.png"
+import pf_prod from "../img/pf_prod.png"
+
+import pp_home from "../img/pp_home.png"
+import pp_login from "../img/pp_login.png"
+import pp_prod from "../img/pp_prod.png"
+import pp_signin from "../img/pp_signin.png"
+import pp_cart from "../img/pp_cart.png"
+import pp_checkout from "../img/pp_checkout.png"
+
+import res_home from "../img/res_home.png"
+import res_home2 from "../img/res_home2.png"
+import res_grid from "../img/res_grid.png"
+import res_grid2 from "../img/res_grid2.png"
+import res_single from "../img/res_single.png"
+
+import wt_home from "../img/wt_home.png"
+import wt_home1 from "../img/wt_home1.png"
+import wt_hrs from "../img/wt_hrs.png"
+import wt_hrs2 from "../img/wt_hrs2.png"
+import wt_hrs3 from "../img/wt_hr3.png"
+
+import git_logo from "../img/github_logo1.png"
 class Portfolio extends React.Component {
   render() {
     return (
@@ -16,10 +57,9 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Projects</h3>
+                <h3 className="title-a">Projects Work</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Here are some of my projects.
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -28,9 +68,9 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={ss_home} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={ss_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -38,7 +78,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Clone of Ssence.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5  CSS3  JavaScript
                           </span>
                         </div>
                       </div>
@@ -48,38 +88,41 @@ class Portfolio extends React.Component {
                         </div>
                       </div>
                     </div>
+                   
                   </div>
+                
                 </a>
+                <div id="project_git"><a href="https://github.com/akshayjagtap1111/-ssense.com-s-clone" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={ss_grid}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={ss_prod1}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={ss_login}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={ss_cart}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={ss_checkout}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -89,9 +132,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={nw_home} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={nw_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -99,8 +142,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Clone of NineWest.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                            HTML5 CSS3 JavaScript NodeJS Express MongoDB
                           </span>{" "}
                         </div>
                       </div>
@@ -111,30 +153,32 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
+                 
                 </a>
+                <div id="project_git"><a href="https://github.com/RishabhTG209/NINE_WEST" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={nw_home2}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={nw_login}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={nw_prod}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={nw_signin}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
@@ -151,9 +195,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={pf_home} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={pf_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -161,7 +205,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Clone of Paperfry.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                            HTML5 CSS3 JavaScript
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -173,37 +217,39 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
+                  
                 </a>
+                <div id="project_git"><a href="https://github.com/sumit7195/pepperfry-project" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={pf_home2}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={pf_home3}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={pf_grid}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={pf_prod}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={pf_cart}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
@@ -213,9 +259,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={pp_home} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={pp_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -223,7 +269,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Clone of Purplle.com</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                          HTML5 CSS3 JavaScript
                           </span>
                         </div>
                       </div>
@@ -234,37 +280,39 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
+                
                 </a>
+                <div id="project_git"><a href="https://github.com/codingwithgyan/Purplle" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={pp_prod}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={pp_login}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={pp_signin}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={pp_cart}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={pp_checkout}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
@@ -274,16 +322,16 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={wt_home} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={wt_home1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Wether App</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">HTML CSS JavaScript</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -292,50 +340,54 @@ class Portfolio extends React.Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                    
+                  </div> 
                 </a>
+
+                <div id="project_git"><a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={wt_home1}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={wt_hrs}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={wt_hrs2}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={wt_hrs3}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={wt_home}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
+              
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={res_home} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={res_home} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -343,7 +395,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Recipe App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                            HTML5 CSS3 JavaScript
                           </span>
                         </div>
                       </div>
@@ -354,37 +406,39 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
+                 
                 </a>
+                <div id="project_git"><a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
                 <a
-                  href={stock1}
+                  href={res_grid}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={res_single}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={res_home2}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={res_grid2}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={res_home}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >

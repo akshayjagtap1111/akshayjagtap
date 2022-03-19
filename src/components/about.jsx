@@ -43,19 +43,33 @@ class About extends React.Component {
        
       ],
       about_me: [
+        // {
+        //   id: "first-p-about",
+        //   content:
+        //     `Hey There i am Akshay Jagtap....
+        //      I am full stack web
+        //     developer having good
+        //     attention to the details.
+        //     Specialized in front-end tools
+        //     and java-script. Curious about
+        //     modern web technology.
+        //     Interested in learning more.
+        //     looking for an opportunity to
+        //     prove my skills in a healthy
+        //     work environment.`,
+        // },
         {
           id: "first-p-about",
           content:
-            `Aspiring full stack web
-            developer having good
-            attention to the details.
-            Specialized in front-end tools
-            and java-script. Curious about
-            modern web technology.
-            Interested in learning more.
-            looking for an opportunity to
-            prove my skills in a healthy
-            work environment.`,
+            `Hey There i am Akshay Jagtap....
+            a hardworking and highly efficient web developer
+             with sound knowledge in full stack technology
+              and hands-on practice in Data Struture and
+               Algorithms Looking forword to making a significant 
+               contribution to a product-based company through
+                dedicated effort andmuse of his skill set. 
+
+            `,
         },
         
       ],
@@ -88,7 +102,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      <p className="title-s">I possess the following technical skills </p>
                       {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
@@ -118,6 +132,7 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
+                      
                       {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
@@ -125,6 +140,7 @@ class About extends React.Component {
                           </p>
                         );
                       })}
+                      
                     </div>
                   </div>
                 </div>

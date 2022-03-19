@@ -198,7 +198,8 @@ a:hover {
 }
 
 .socials ul li {
-  display: inline-block;
+  padding: 10px;
+  display: flex;
 }
 
 .socials .ico-circle {
@@ -210,6 +211,10 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
+}
+.cont_info{
+  padding-top: 5px;
+  font-weight: bold;
 }
 
 .socials .ico-circle:hover {
@@ -401,6 +406,7 @@ NAVBAR
 
 .navbar-b.navbar-reduce {
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  
 }
 
 .navbar-b.navbar-trans .nav-item,
@@ -698,6 +704,7 @@ PORTFOLIO
 
 .work-box {
   margin-bottom: 3rem;
+  height: 350px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
@@ -998,3 +1005,33 @@ BUTTON
     bottom: 15px;
   }
 }
+
+#abt_img {
+  border: #0062d3 solid 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#project_git{
+ padding-left: 4%;
+
+}
+
+#go_live{
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(19, 181, 235);
+  margin-left: 60%;
+}
+
+/* .row{
+  display: block;
+  /* flex-direction:column-reverse; */
+/* }
+.row:nth-child(1){
+  border: solid red 1px;
+} */ 
+
+.box-shodow-full{
+  flex-direction: column-reverse};
