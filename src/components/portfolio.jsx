@@ -49,6 +49,7 @@ import wt_hrs2 from "../img/wt_hrs2.png"
 import wt_hrs3 from "../img/wt_hr3.png"
 
 import git_logo from "../img/github_logo1.png"
+import redirect from "../img/redirect_img1.png"
 class Portfolio extends React.Component {
   render() {
     return (
@@ -72,27 +73,28 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={ss_home} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Clone of Ssence.com</h2>
+                        <h2 className="w-title">Ssence.com<a href="https://ssenseclone.vercel.app/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5  CSS3  JavaScript
+                            HTML5 | CSS3 | JavaScript
                           </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/akshayjagtap1111/-ssense.com-s-clone" target="_blank"><img src={git_logo} width={30}></img></a>
                         </div>
                       </div>
                     </div>
                    
                   </div>
                 
-                </a>
-                <div id="project_git"><a href="https://github.com/akshayjagtap1111/-ssense.com-s-clone" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+                
+                <div id="project_git"> </div>
                 <a
                   href={ss_grid}
                   data-lightbox="gallery-vmarine"
@@ -136,26 +138,27 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={nw_home} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Clone of NineWest.com</h2>
+                        <h2 className="w-title">NineWest.com<a href="https://rishabhtg209.github.io/NINE_WEST/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 JavaScript NodeJS Express MongoDB
+                           NodeJS | Express | MongoDB
                           </span>{" "}
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/RishabhTG209/NINE_WEST" target="_blank"><img src={git_logo} width={30}></img></a> 
                         </div>
                       </div>
                     </div>
                   </div>
                  
-                </a>
-                <div id="project_git"><a href="https://github.com/RishabhTG209/NINE_WEST" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+                
+                <div id="project_git"></div>
                 <a
                   href={nw_home2}
                   data-lightbox="gallery-aguadeluz"
@@ -199,27 +202,28 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={pf_home} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Clone of Paperfry.com</h2>
+                        <h2 className="w-title">Paperfry.com <a href="https://pepperfry-project-akshayjagtap1111.vercel.app" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 JavaScript
+                            HTML5 | CSS3 | JavaScript
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/sumit7195/pepperfry-project" target="_blank"><img src={git_logo} width={30}></img></a>
                         </div>
                       </div>
                     </div>
                   </div>
                   
-                </a>
-                <div id="project_git"><a href="https://github.com/sumit7195/pepperfry-project" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+              
+                <div id="project_git"></div>
                 <a
                   href={pf_home2}
                   data-lightbox="gallery-todo"
@@ -263,26 +267,27 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={pp_home} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Clone of Purplle.com</h2>
+                        <h2 className="w-title">Purplle.com <a href="https://ecommerce-cw.vercel.app/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                          HTML5 CSS3 JavaScript
+                          HTML5 | CSS3 | JavaScript
                           </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/codingwithgyan/Purplle" target="_blank"><img src={git_logo} width={30}></img></a>
                         </div>
                       </div>
                     </div>
                   </div>
                 
-                </a>
-                <div id="project_git"><a href="https://github.com/codingwithgyan/Purplle" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+                
+                <div id="project_git"></div>
                 <a
                   href={pp_prod}
                   data-lightbox="gallery-medlingos"
@@ -326,25 +331,26 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={wt_home1} alt="" className="img-fluid" />
                   </div>
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Wether App</h2>
+                        <h2 className="w-title">Wether App <a href="https://wether-app-akshayjagtap1111.vercel.app/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
-                          <span className="w-ctegory">HTML CSS JavaScript</span>
+                          <span className="w-ctegory">HTML | CSS | JavaScript</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a> 
                         </div>
                       </div>
                     </div>
                     
                   </div> 
-                </a>
+               
 
-                <div id="project_git"><a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+                <div id="project_git"></div>
                 <a
                   href={wt_home1}
                   data-lightbox="gallery-smth"
@@ -389,26 +395,28 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={res_home} alt="" className="img-fluid" />
                   </div>
+                  
+                  </a>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Recipe App</h2>
+                        <h2 className="w-title">Recipe App<a href="https://recipe-app-akshayjagtap1111.vercel.app" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 JavaScript
+                            HTML5 | CSS3 | JavaScript
                           </span>
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a>
                         </div>
                       </div>
                     </div>
                   </div>
                  
-                </a>
-                <div id="project_git"><a href="https://github.com/akshayjagtap1111/recipe_app" target="_blank"><img src={git_logo} width={30}></img></a> <a><button id="go_live">Go Live</button></a></div>
+               
+                <div id="project_git"></div>
                 <a
                   href={res_grid}
                   data-lightbox="gallery-mf"

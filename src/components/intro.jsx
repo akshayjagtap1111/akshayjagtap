@@ -15,7 +15,7 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <img src={myimg} id="profile_img" width={200} style={{border:"none" }} ></img>
+              <div id="my_profile_div"><img src={myimg} id="profile_img" width={200} style={{border:"none" }} ></img></div>
               <h1 className="intro-title mb-4">Hello, I am Akshay Jagtap</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
@@ -29,16 +29,7 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3">
-                <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="https://drive.google.com/drive/folders/1VaWK0g0ofNSyBOab7GLomov8Cj0HEyPU?usp=sharing"
-                  target="_blank"
-                  role="button"
-                >
-                  View Resume
-                </a>
-              </p>
+             
             </div>
           </div>
         </div>
