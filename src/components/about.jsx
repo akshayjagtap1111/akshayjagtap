@@ -2,7 +2,7 @@ import React from "react";
 import myImage from "../img/myImage.png";
 import aaa from "../img/aaa.jpg";
 
-import express_icon from "../img/express_icon.png"
+import express_icon from "../img/express_icon.png";
 
 class About extends React.Component {
   constructor() {
@@ -110,9 +110,12 @@ class About extends React.Component {
             a hardworking and highly efficient web developer
              with sound knowledge in full stack technology
               and hands-on practice in Data Struture and
-               Algorithms Looking forword to making a significant 
-               contribution to a product-based company through
-                dedicated effort andmuse of his skill set. 
+               Algorithms. Curious about
+                  modern web technology.
+                   Interested in learning technical things.
+                  looking for an opportunity to
+                  prove my skills in a healthy
+                   work environment. 
 
             `,
         },
@@ -161,27 +164,24 @@ class About extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <h1 className="title-s" style={{"font-size": 30}}>
-                        Skills{" "}
-                      </h1>
+                    <h1 className="title-s" style={{ "font-size": 30 }}>
+                      Skills{" "}
+                    </h1>
                     <div className="skill-mf">
-                      
                       <div id="my_skills">
-                      {this.state.skills.map((skill) => {
-                        return (
-                         
+                        {this.state.skills.map((skill) => {
+                          return (
                             <React.Fragment key={skill.id}>
                               <div className="my_skills_icon_out">
                                 <div className="my_skills_icon">
-                                <img src={skill.img} width={50}></img>
-                                </div>  
-                              <p>{skill.content}</p>
+                                  <img src={skill.img} width={50}></img>
+                                </div>
+                                <p>{skill.content}</p>
                               </div>
                             </React.Fragment>
-                          
-                        );
-                      })}
-                     </div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>
