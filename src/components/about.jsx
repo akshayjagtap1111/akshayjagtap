@@ -53,6 +53,13 @@ class About extends React.Component {
           img: "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png",
         },
         {
+          id: "ReactJS_skill",
+          content: "ReactJs",
+          porcentage: "80%",
+          value: "80",
+          img: "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png",
+        },
+        {
           id: "VanillaJS_skill",
           content: "MongoDB",
           porcentage: "85%",

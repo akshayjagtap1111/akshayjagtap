@@ -1,7 +1,7 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
-import myimg from "../img/myimg.JPG"
+import myimg from "../img/myimg3.JPG";
 
 class Intro extends React.Component {
   render() {
@@ -15,7 +15,14 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <div id="my_profile_div"><img src={myimg} id="profile_img" width={200} style={{border:"none" }} ></img></div>
+              <div id="my_profile_div">
+                <img
+                  src={myimg}
+                  id="profile_img"
+                  width={200}
+                  style={{ border: "none" }}
+                ></img>
+              </div>
               <h1 className="intro-title mb-4">Hello, I am Akshay Jagtap</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
@@ -29,7 +36,6 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-             
             </div>
           </div>
         </div>

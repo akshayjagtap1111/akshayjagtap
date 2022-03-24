@@ -49,7 +49,7 @@ import wt_hrs2 from "../img/wt_hrs2.png"
 import wt_hrs3 from "../img/wt_hr3.png"
 
 import git_logo from "../img/github_logo1.png"
-import redirect from "../img/redirect_img1.png"
+import redirect from "../img/redirect_img2.png"
 class Portfolio extends React.Component {
   render() {
     return (
