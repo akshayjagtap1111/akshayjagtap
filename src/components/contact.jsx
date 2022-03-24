@@ -107,7 +107,6 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                         
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -125,7 +124,6 @@ class Contact extends React.Component {
                             >
                               <span className="ico-circle">
                                 <i className="ion-ios-telephone"></i>
-
                               </span>
                             </a>
                             <span className="cont_info">+91 8600845521</span>
@@ -140,7 +138,16 @@ class Contact extends React.Component {
                                 <i className="ion-social-github"></i>
                               </span>
                             </a>
-                            <span className="cont_info"> <a href="https://github.com/akshayjagtap1111"> github.com/akshayjagtap1111</a></span>
+                            <span className="cont_info">
+                              {" "}
+                              <a
+                                href="https://github.com/akshayjagtap1111"
+                                target="_blank"
+                              >
+                                {" "}
+                                github.com/akshayjagtap1111
+                              </a>
+                            </span>
                           </li>
                           <li>
                             <a
@@ -152,7 +159,14 @@ class Contact extends React.Component {
                                 <i className="ion-social-linkedin"></i>
                               </span>
                             </a>
-                            <span className="cont_info"><a href="https://www.linkedin.com/in/akshay-jagtap-7ab17b213/">linkedin.com/in/akshay-jagtap-7ab17b213</a> </span>
+                            <span className="cont_info">
+                              <a
+                                href="https://www.linkedin.com/in/akshay-jagtap-7ab17b213/"
+                                target="_blank"
+                              >
+                                linkedin.com/in/akshay-jagtap-7ab17b213
+                              </a>{" "}
+                            </span>
                           </li>
 
                           <li>
@@ -165,9 +179,10 @@ class Contact extends React.Component {
                                 <i className="ion-email"></i>
                               </span>
                             </a>
-                            <span className="cont_info">er.akshayjagtap@gmail.com</span>
+                            <span className="cont_info">
+                              er.akshayjagtap@gmail.com
+                            </span>
                           </li>
-                          
                         </ul>
                       </div>
                     </div>
@@ -181,8 +196,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
