@@ -4,13 +4,13 @@ import $ from "jquery";
 import logo1 from "../img/male1.png";
 import logo2 from "../img/male.png";
 import aaa from "../img/aaa.jpg";
-import myimg from "../img/myimg.jpg"
+import myimg from "../img/myimg.jpg";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: aaa
+      logo: aaa,
     };
   }
 
@@ -18,7 +18,7 @@ class Navbar extends React.Component {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
 
-    $(".navbar-toggler").on("click", function() {
+    $(".navbar-toggler").on("click", function () {
       if (!$("#mainNav").hasClass("navbar-reduce")) {
         $("#mainNav").addClass("navbar-reduce");
       }
@@ -26,10 +26,10 @@ class Navbar extends React.Component {
 
     $("body").scrollspy({
       target: "#mainNav",
-      offset: navHeight
+      offset: navHeight,
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
 
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
         window.location.pathname.replace(/^\//, "") ===
           this.pathname.replace(/^\//, "") &&
@@ -66,7 +66,7 @@ class Navbar extends React.Component {
         if (target.length) {
           $("html, body").animate(
             {
-              scrollTop: target.offset().top - navHeight + 5
+              scrollTop: target.offset().top - navHeight + 5,
             },
             1000,
             "easeInExpo"
@@ -76,7 +76,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
   }
@@ -88,23 +88,22 @@ class Navbar extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          
-            {/* <img
+          {/* <img
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "100px" }}
             /> */}
-             <p className="pt-3">
-                <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="https://drive.google.com/drive/folders/1VaWK0g0ofNSyBOab7GLomov8Cj0HEyPU?usp=sharing"
-                  target="_blank"
-                  role="button"
-                >
-                  View Resume
-                </a>
-              </p>
-          
+          <p className="pt-3">
+            <a
+              className="btn btn-primary btn js-scroll px-4"
+              href="https://drive.google.com/file/d/1LJj1XYvNcpggnqZNwO6hZbEvePcEYfTZ/view?usp=sharing"
+              target="_blank"
+              role="button"
+            >
+              View Resume
+            </a>
+          </p>
+
           <button
             className="navbar-toggler collapsed"
             type="button"

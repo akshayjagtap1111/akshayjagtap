@@ -53,11 +53,11 @@ class About extends React.Component {
           img: "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png",
         },
         {
-          id: "ReactJS_skill",
-          content: "ReactJs",
+          id: "Redux_skill",
+          content: "ReduxJs",
           porcentage: "80%",
           value: "80",
-          img: "https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png",
+          img: "http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
         },
         {
           id: "VanillaJS_skill",

@@ -77,7 +77,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Ssence.com<a href="https://ssenseclone.vercel.app/" target="_blank"><img src={redirect} width={20}></img></a></h2>
+                        <h2 className="w-title">Ssence.com <a href="https://ssenseclone.vercel.app/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 | CSS3 | JavaScript
@@ -142,7 +142,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">NineWest.com<a href="https://rishabhtg209.github.io/NINE_WEST/" target="_blank"><img src={redirect} width={20}></img></a></h2>
+                        <h2 className="w-title">NineWest.com <a href="https://rishabhtg209.github.io/NINE_WEST/" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                            NodeJS | Express | MongoDB
@@ -400,7 +400,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Recipe App<a href="https://recipe-app-akshayjagtap1111.vercel.app" target="_blank"><img src={redirect} width={20}></img></a></h2>
+                        <h2 className="w-title">Recipe App <a href="https://recipe-app-akshayjagtap1111.vercel.app" target="_blank"><img src={redirect} width={20}></img></a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 | CSS3 | JavaScript
