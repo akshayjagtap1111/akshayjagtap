@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../img/myImage.png";
 import aaa from "../img/aaa.jpg";
+import redux_img from "../img/redux_img.png";
 
 import express_icon from "../img/express_icon.png";
 
@@ -57,7 +58,7 @@ class About extends React.Component {
           content: "ReduxJs",
           porcentage: "80%",
           value: "80",
-          img: "http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png",
+          img: redux_img,
         },
         {
           id: "VanillaJS_skill",
