@@ -47,6 +47,14 @@ import wt_hrs from "../img/wt_hrs.png";
 import wt_hrs2 from "../img/wt_hrs2.png";
 import wt_hrs3 from "../img/wt_hr3.png";
 
+import M_home from "../img/M_home.png";
+import M_login from "../img/M_login.png";
+import M_user_dash_2 from "../img/M_user_dash_2.png";
+import M_campaDetail from "../img/M_campaDetail.png";
+import M_Customise_temp from "../img/M_customise_temp.png";
+import M_payment from "../img/M_payment.png";
+import M_plans from "../img/M_plans.png";
+
 import git_logo from "../img/github_logo1.png";
 import redirect from "../img/redirect_img2.png";
 class Portfolio extends React.Component {
@@ -66,33 +74,31 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={ss_home} data-lightbox="gallery-vmarine">
+                <a href={M_login} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={ss_home} alt="" className="img-fluid" />
+                    <img src={M_home} alt="" className="img-fluid" />
                   </div>
                 </a>
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
                       <h2 className="w-title">
-                        Ssence.com{" "}
+                        Mailchimp.com{" "}
                         <a
-                          href="https://ssenseclone.vercel.app/"
+                          href="https://mailchimp-frontend.vercel.app/"
                           target="_blank"
                         >
                           <img src={redirect} width={20}></img>
                         </a>
                       </h2>
                       <div className="w-more">
-                        <span className="w-ctegory">
-                          HTML5 | CSS3 | JavaScript
-                        </span>
+                        <span className="w-ctegory">MERN Stack</span>
                       </div>
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
                         <a
-                          href="https://github.com/akshayjagtap1111/-ssense.com-s-clone"
+                          href="https://github.com/shuklabhisekh/Clone-of-Mailchimp.git"
                           target="_blank"
                         >
                           <img src={git_logo} width={30}></img>
@@ -102,44 +108,45 @@ class Portfolio extends React.Component {
                   </div>
                 </div>
 
-                <div id="project_git"> </div>
+                <div id="project_git"></div>
                 <a
-                  href={ss_grid}
-                  data-lightbox="gallery-vmarine"
+                  href={M_user_dash_2}
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={ss_prod1}
-                  data-lightbox="gallery-vmarine"
+                  href={M_campaDetail}
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={ss_login}
-                  data-lightbox="gallery-vmarine"
+                  href={M_Customise_temp}
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={ss_cart}
-                  data-lightbox="gallery-vmarine"
+                  href={M_plans}
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={ss_checkout}
-                  data-lightbox="gallery-vmarine"
+                  href={M_payment}
+                  data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href={nw_home} data-lightbox="gallery-aguadeluz">
@@ -210,6 +217,82 @@ class Portfolio extends React.Component {
                 <a
                   href={stock5}
                   data-lightbox="gallery-aguadeluz"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a href={ss_home} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={ss_home} alt="" className="img-fluid" />
+                  </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">
+                        Ssence.com{" "}
+                        <a
+                          href="https://ssenseclone.vercel.app/"
+                          target="_blank"
+                        >
+                          <img src={redirect} width={20}></img>
+                        </a>
+                      </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          HTML5 | CSS3 | JavaScript
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/akshayjagtap1111/-ssense.com-s-clone"
+                          target="_blank"
+                        >
+                          <img src={git_logo} width={30}></img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="project_git"> </div>
+                <a
+                  href={ss_grid}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ss_prod1}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ss_login}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ss_cart}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ss_checkout}
+                  data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -293,82 +376,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={pp_home} data-lightbox="gallery-medlingos">
-                  <div className="work-img">
-                    <img src={pp_home} alt="" className="img-fluid" />
-                  </div>
-                </a>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">
-                        Purplle.com{" "}
-                        <a
-                          href="https://ecommerce-cw.vercel.app/"
-                          target="_blank"
-                        >
-                          <img src={redirect} width={20}></img>
-                        </a>
-                      </h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">
-                          HTML5 | CSS3 | JavaScript
-                        </span>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a
-                          href="https://github.com/codingwithgyan/Purplle"
-                          target="_blank"
-                        >
-                          <img src={git_logo} width={30}></img>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-                <div id="project_git"></div>
-                <a
-                  href={pp_prod}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={pp_login}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={pp_signin}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={pp_cart}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={pp_checkout}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-              </div>
-            </div>
             <div className="col-md-4">
               <div className="work-box">
                 <a href={wt_home} data-lightbox="gallery-smth">
